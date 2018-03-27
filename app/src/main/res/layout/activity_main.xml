@@ -1,0 +1,38 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    android:layout_width="fill_parent"
+    android:layout_height="900dp">
+
+        <Button
+            android:id="@+id/print_btn"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="150dp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:text="Print"
+            android:textSize="18sp"
+            android:textColor="#FAFAFA"
+            android:background="@color/buttoncolor"
+            android:visibility="invisible"/>
+
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/Settings_Btn"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_alignLeft="@+id/Barcode_Btn"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/Barcode_Btn"
+            android:textAllCaps="false"
+            android:textColor="#FAFAFA"
+            android:textSize="18sp"
+            android:background="@color/buttoncolor"
+            android:text="Connect to Bluetooth" />
+</LinearLayout>
